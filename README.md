@@ -15,7 +15,7 @@ This project involves building a Python-based web scraper to collect data on the
    - Revenue Growth
    - No. of Employees
    
-3. Data Storage: The scraped data is cleaned and stored in a structured format such as CSV or a database (e.g., SQLite), ensuring it can be easily accessed for further analysis.
+3. Data Storage: The scraped data is cleaned and stored in a CSV structured format, ensuring it can be easily accessed for further analysis.
 
 4. Data Analysis: Once collected, the data can be analyzed to find trends in industries, company performance, or create visual reports using libraries like `Pandas` and `Numpy`.
 
