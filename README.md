@@ -21,5 +21,5 @@ This project involves building a Python-based web scraper to collect data on the
 
 This project showcases practical web scraping, data handling, and analysis skills that can be applied to financial market research or business intelligence applications.
 
-### [View Here](https://www.kaggle.com/code/adebayoadebanjo/my-webscraping-project)
+### [View Project Here](https://www.kaggle.com/code/adebayoadebanjo/my-webscraping-project)
 
