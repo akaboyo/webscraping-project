@@ -2,10 +2,10 @@
 
 ## Project Overview
 
-This project involves building a Python-based web scraper to collect data on the top 100 companies in the United States. The aim is to gather key information such as company names, market capitalization, stock prices, industry sectors, and financial performance metrics. The scraped data can be used for analysis, reporting, or integrated into financial dashboards.
+This project involves building a Python-based web scraper to collect data on the top 100 companies in the United States. The aim is to gather key information such as company names, market capitalization, industry sectors, and financial performance metrics. The scraped data can be used for analysis, reporting, or integrated into financial dashboards.
 
 #### Key Components:
-1. Web Scraping Libraries: The project utilizes Python libraries like `BeautifulSoup` and `requests` to parse HTML content and extract relevant data from reputable websites such as Fortune 500, Forbes, or stock market aggregators.
+1. Web Scraping Libraries: The project utilizes Python libraries like `BeautifulSoup` and `requests` to parse HTML content and extract relevant data from wikipedia which is a reputable website.
   
 2. Data Collection: The scraper fetches data on:
    - Company Name
