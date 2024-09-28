@@ -27,9 +27,7 @@ Once collected, i analysed the data to find trends in industries, company perfor
 This project showcases my practical web scraping, data handling, and analysis skills that can be applied to financial market research or business intelligence applications.
  
 See below a snippet of the scraped data which was exported to a csv file for further analysis.
-![Top 100 coys snippet](https://github.com/user-attachments/assets/6d9d5017-c689-49ff-b839-f16cd60730e7)
-
-code        df.to_csv('top_100_coys.csv', index = False)
+![Top 100 snippet](https://github.com/user-attachments/assets/165b6ed7-e540-4e8b-9641-7b7e08fc9e0c)
 
 ### [View Project Here](https://www.kaggle.com/code/adebayoadebanjo/my-webscraping-project)
 
