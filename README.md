@@ -37,7 +37,7 @@ This project showcases my practical web scraping, data handling, and analysis sk
 See below a snippet of the scraped data which was exported to a csv file for further analysis.
 ![Top 100 snippet](https://github.com/user-attachments/assets/165b6ed7-e540-4e8b-9641-7b7e08fc9e0c)
 
-### [View Web-Scraping Process Here](https://www.kaggle.com/code/adebayoadebanjo/my-webscraping-project)
+### View Web-Scraping Process [here](https://www.kaggle.com/code/adebayoadebanjo/my-webscraping-project)
 
 
 
