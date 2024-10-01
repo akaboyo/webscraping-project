@@ -8,12 +8,11 @@ This project involves building a Python-based web scraper to collect data on the
 - Which industries and companies contribute the most to overall revenue and employee counts.
 - How revenue growth varies across companies and industries, particularly identifying which sectors are growing fastest and which companies dominate their respective sectors.
 - Identifying geographic trends in the location of company headquarters and state-level revenue distributions.
-Key Questions:
 - What are the relationships between company size (in terms of employees) and revenue in different industries?
 
 By answering these questions, this project aims to provide actionable insights to help businesses and analysts understand the economic landscape of the largest U.S. companies and identify opportunities for growth and investment.
 
-#### Key Components:
+## Data Preprocessing
 1. Web Scraping Libraries: In this project, i utilized these Python libraries:
    - BeautifulSoup: For parsing HTML content and extracting data from the webpage.
    - requests: For making HTTP requests to fetch the HTML content.
