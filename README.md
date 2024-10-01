@@ -2,7 +2,16 @@
 
 ## Project Overview
 
-This project involves building a Python-based web scraper to collect data on the top 100 companies in the United States. The aim is to gather key information such as company names, market capitalization, industry sectors, and financial performance metrics. The scraped data was exported to a csv file for further analysis, reporting, and integrated into financial dashboards.
+This project involves building a Python-based web scraper to collect data on the top 100 companies in the United States. The aim is to gather key information such as company names, industry sectors, and financial performance metrics and employee size, uncover key insights into industry distribution, geographic concentration, and growth patterns. The scraped data was exported to a csv file for further analysis, reporting, and integrated into financial dashboards with the objective of providing stakeholders with a deeper understanding of:
+
+- The distribution of revenue across industries and states.
+- Which industries and companies contribute the most to overall revenue and employee counts.
+- How revenue growth varies across companies and industries, particularly identifying which sectors are growing fastest and which companies dominate their respective sectors.
+- Identifying geographic trends in the location of company headquarters and state-level revenue distributions.
+Key Questions:
+- What are the relationships between company size (in terms of employees) and revenue in different industries?
+
+By answering these questions, this project aims to provide actionable insights to help businesses and analysts understand the economic landscape of the largest U.S. companies and identify opportunities for growth and investment.
 
 #### Key Components:
 1. Web Scraping Libraries: In this project, i utilized these Python libraries:
@@ -29,5 +38,7 @@ This project showcases my practical web scraping, data handling, and analysis sk
 See below a snippet of the scraped data which was exported to a csv file for further analysis.
 ![Top 100 snippet](https://github.com/user-attachments/assets/165b6ed7-e540-4e8b-9641-7b7e08fc9e0c)
 
-### [View Project Here](https://www.kaggle.com/code/adebayoadebanjo/my-webscraping-project)
+### [View Web-Scraping Process Here](https://www.kaggle.com/code/adebayoadebanjo/my-webscraping-project)
+
+
 
