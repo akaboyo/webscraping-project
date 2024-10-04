@@ -68,15 +68,23 @@ I focused on creating interactive dashboards that would allow stakeholders to ex
 #### Industry and Company Performance Overview Dashboard
    - Bar Chart: Displaying total revenue of top 10 companies, highlighting the dominant sectors such as Retail, Petroleum, Financials and Healthcare.
    - Treemap: Showing revenue share by industry, allowing users to drill down into specific companies.   
+![Top 10 companies](https://github.com/user-attachments/assets/ed5e9a50-5015-4071-91a3-eba2674a2f1a)
+![Treemap](https://github.com/user-attachments/assets/918fa64b-2d37-449e-8d93-aef71d96bdd9)
 
 #### Geographic Analysis Dashboard
    - Choropleth Map: Visualizing the distribution of top companies' headquarters across U.S. states and total revenue per state. States like California, Texas, and New York were identified as key business hubs.
+![Map](https://github.com/user-attachments/assets/e8d3760c-6470-4e3b-9b19-3ffd9dd7a0c5)
    
 #### Company Performance Dashboard
    - Scatter Plot: Plotting revenue vs. employee size by industry, highlighting outliers such as Amazon**, Walmart, and ExxonMobil, which have massive revenues and workforce.
    - Top N/Bottom N Companies: Featured a bar chart of the top 5 and bottom 5 companies by revenue growth(%).
    - Revenue Growth Distribution: A table visualizing the revenue growth distribution by state, industry, and company revealing that while some industries like Technology and 
      Healthcare have outliers with high growth, others are more stable.
+![Scatterplot](https://github.com/user-attachments/assets/5a6a1492-9e7a-471d-a196-688bf5346f21)
+
+![Top and Bottom 5](https://github.com/user-attachments/assets/f1a9b02f-98ef-402c-b2bf-7e4a22ad8e89)
+
+![Industry growth dist](https://github.com/user-attachments/assets/30693715-8cc5-406f-a95c-c26883d8e192)
 
 
 ### Insights and Interactivity
