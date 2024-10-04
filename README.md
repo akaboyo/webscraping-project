@@ -93,6 +93,8 @@ I focused on creating interactive dashboards that would allow stakeholders to ex
      Healthcare have outliers with high growth, others are more stable.
 ![Scatterplot](https://github.com/user-attachments/assets/5a6a1492-9e7a-471d-a196-688bf5346f21)
 
+![Box plot](https://github.com/user-attachments/assets/24345bd1-e16a-47eb-9a3c-982a42b6c5a6)
+
 ![Top and Bottom 5](https://github.com/user-attachments/assets/f1a9b02f-98ef-402c-b2bf-7e4a22ad8e89)
 
 ![Industry growth dist](https://github.com/user-attachments/assets/30693715-8cc5-406f-a95c-c26883d8e192)
