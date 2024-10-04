@@ -88,7 +88,7 @@ The dashboard allows users to:
 ### Final Output and Sharing
 The interactive dashboards were published to Tableau Public for easy access and sharing with stakeholders. The insights from these visualizations provide a comprehensive understanding of the economic landscape of the top 100 U.S. companies by revenue, highlighting key sectors, geographic trends, and operational efficiencies.
 
-To view the published dashboards on Tableau Public, click [here]
+To view the published dashboards on Tableau Public, click [here]https://public.tableau.com/views/Top100USCompanies/Story1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 
 
