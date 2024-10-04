@@ -1,6 +1,15 @@
 # [TOP 100 COMPANIES IN THE US](#top-100-companies-in-the-us)
 
 ## Table of Contents
+- [Project Overview](#project-overview)
+- [Data Preprocessing Tools](#data-preprocessing-tools)
+- [Data Analysis](#data-analysis)
+- [Further Analysis Process](#further-analysis-process)
+    - [Connecting to the Dataset in Tableau](#connecting-to-the-dataset-in-tableau)
+    - [Data Preparation in Tableau](#data-preparation-in-tableau)
+    - [Visualizations and Dashboards Creation](#visualizations-and-dashboards-creation)
+    - [Insights and Interactivity](#insights-and-interactivity)
+    - [Final Output and Sharing](#final-output-and-sharing)
 
 ## Project Overview
 
@@ -14,7 +23,7 @@ This project involves building a Python-based web scraper to collect data on the
 
 By answering these questions, this project aims to provide actionable insights to help businesses and analysts understand the economic landscape of the largest U.S. companies and identify opportunities for growth and investment.
 
-## Data Preprocessing
+## Data Preprocessing Tools
 1. Web Scraping Libraries: In this project, i utilized these Python libraries:
    - BeautifulSoup: For parsing HTML content and extracting data from the webpage.
    - requests: For making HTTP requests to fetch the HTML content.
@@ -89,13 +98,13 @@ I focused on creating interactive dashboards that would allow stakeholders to ex
 ![Industry growth dist](https://github.com/user-attachments/assets/30693715-8cc5-406f-a95c-c26883d8e192)
 
 
-### Insights and Interactivity
+## Insights and Interactivity
 The dashboard allows users to:
 - Use Action filters by industry, state, and company to explore granular detailed information.
 - Hover over points on scatter plots, Map, and bar charts to view specific values for revenue, growth, and employee count.
 
 
-### Final Output and Sharing
+## Final Output and Sharing
 The interactive dashboards were published to Tableau Public for easy access and sharing with stakeholders. The insights from these visualizations provide a comprehensive understanding of the economic landscape of the top 100 U.S. companies by revenue, highlighting key sectors, geographic trends, and operational efficiencies.
 
 To view the published dashboards on Tableau Public, click [here]https://public.tableau.com/views/Top100USCompanies/Story1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
