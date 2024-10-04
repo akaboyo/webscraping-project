@@ -1,5 +1,7 @@
 # [TOP 100 COMPANIES IN THE US](#top-100-companies-in-the-us)
 
+## Table of Contents
+
 ## Project Overview
 
 This project involves building a Python-based web scraper to collect data on the top 100 companies in the United States. The aim is to gather key information such as company names, industry sectors, and financial performance metrics and employee size, uncover key insights into industry distribution, geographic concentration, and growth patterns. The scraped data was exported to a csv file for further analysis, reporting, and integrated into financial dashboards with the objective of providing stakeholders with a deeper understanding of:
