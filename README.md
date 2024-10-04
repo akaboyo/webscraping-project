@@ -19,7 +19,7 @@ By answering these questions, this project aims to provide actionable insights t
    - pandas: For cleaning and organizing the data in a structured format (dataframe) and exporting it to CSV.
   
 3. Data Collection: The scraper fetches data on:
-   - Ranking 
+   - Rank 
    - Company Name
    - Industry Sector
    - Revenue (USD millions)
@@ -46,7 +46,7 @@ After completing the initial data preparation and exporting the cleaned dataset 
 
 ### Connecting to the Dataset in Tableau
 After exporting the cleaned CSV from Python, I connected Tableau to the dataset for further visualization. The data contains important columns like:
-   - Ranking 
+   - Rank
    - Company Name
    - Industry Sector
    - Revenue (USD millions)
@@ -65,36 +65,30 @@ Upon importing the dataset, I performed a few data preparation steps in Tableau:
 ### Visualizations and Dashboards Creation
 I focused on creating interactive dashboards that would allow stakeholders to explore different dimensions of the dataset. Here are some key visualizations featured:
 
-#### Industry Overview Dashboard
-   - **Bar Chart**: Displaying **total revenue by industry**, highlighting the dominant sectors such as **Retail**, **Petroleum**, and **Healthcare**.
-   - **Treemap**: Showing **revenue share by company within each industry**, allowing users to drill down into specific companies.
+#### Industry and Company Performance Overview Dashboard
+   - Bar Chart: Displaying total revenue of top 10 companies, highlighting the dominant sectors such as Retail, Petroleum, Financials and Healthcare.
+   - Treemap: Showing revenue share by industry, allowing users to drill down into specific companies.   
+
+#### Geographic Analysis Dashboard
+   - Choropleth Map: Visualizing the distribution of top companies' headquarters across U.S. states and total revenue per state. States like California, Texas, and New York were identified as key business hubs.
    
+#### Company Performance Dashboard
+   - Scatter Plot: Plotting revenue vs. employee size by industry, highlighting outliers such as Amazon**, Walmart, and ExxonMobil, which have massive revenues and workforce.
+   - Top N/Bottom N Companies: Featured a bar chart of the top 5 and bottom 5 companies by revenue growth(%).
+   - Revenue Growth Distribution: A table visualizing the revenue growth distribution by state, industry, and company revealing that while some industries like Technology and 
+     Healthcare have outliers with high growth, others are more stable.
 
-#### **b. Geographic Analysis Dashboard**
-   - **Choropleth Map**: Visualizing the **distribution of top companies' headquarters across U.S. states** and **total revenue per state**. States like **California**, **Texas**, and **New York** were identified as key business hubs.
-   - **Heat Map**: Displaying **revenue growth by state**, providing insights into where the most growth is happening geographically.
 
-#### **c. Company Performance Dashboard**
-   - **Scatter Plot**: Plotting **revenue vs. employee size** by industry, highlighting outliers such as **Amazon**, **Walmart**, and **ExxonMobil**, which have massive revenues and workforce.
-   - **Top 10 Companies**: Featured a **bar chart** of the **top 10 companies by revenue**, with filters to explore **revenue growth** and **employee size**.
-   - **Revenue Growth Distribution**: A box plot visualizing the **revenue growth distribution by industry**, revealing that while some industries like **Technology** and **Healthcare** have outliers with high growth, others are more stable.
-
-#### **d. Revenue Efficiency Dashboard**
-   - **Bubble Chart**: Showing **revenue per employee** for each company to highlight operational efficiency. Companies in **Technology** and **Financial Services** were found to generate higher revenue per employee compared to others.
-   - **Line Chart**: Comparing **revenue growth over time** for different industries (if time-series data is present in future iterations).
-
-### **4. Insights and Interactivity**
+### Insights and Interactivity
 The dashboard allows users to:
-- Filter by **industry**, **state**, and **company** to explore detailed information.
-- **Hover over points** on scatter plots and bar charts to view specific values for revenue, growth, and employee count.
-- **Drill down** into particular industries or companies to see more granular details.
+- Use Action filters by industry, state, and company to explore granular detailed information.
+- Hover over points on scatter plots, Map, and bar charts to view specific values for revenue, growth, and employee count.
 
-### **5. Final Output and Sharing**
+
+### Final Output and Sharing
 The interactive dashboards were published to Tableau Public for easy access and sharing with stakeholders. The insights from these visualizations provide a comprehensive understanding of the economic landscape of the top 100 U.S. companies by revenue, highlighting key sectors, geographic trends, and operational efficiencies.
 
-
-
-This process demonstrates the end-to-end analysis of the **Top 100 Companies in the U.S.** dataset, from data collection and preparation in Python to advanced visualizations in Tableau. The visualizations provide valuable insights that can drive decision-making and strategic planning for businesses and investors.
+To view the published dashboards on Tableau Public, click [here]
 
 
 
