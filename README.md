@@ -36,6 +36,7 @@ By answering these questions, this project aims to provide actionable insights t
    - Revenue (USD millions)
    - Revenue Growth
    - No. of Employees
+   - Headquarters
    
 4. Data Storage: The scraped data is cleaned and stored in a CSV structured format, for further analysis in Tableau.
 
