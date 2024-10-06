@@ -64,6 +64,7 @@ After exporting the cleaned CSV from Python, I connected Tableau to the dataset 
    - Revenue (USD millions)
    - Revenue Growth
    - No. of Employees
+   - Headquarters
 
 ### Data Preparation in Tableau
 Upon importing the dataset, I performed a few data preparation steps in Tableau:
