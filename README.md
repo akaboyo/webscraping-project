@@ -66,8 +66,7 @@ After exporting the cleaned CSV from Python, I connected Tableau to the dataset 
    - No. of Employees
    - Headquarters
 
-### Download dataset here [companies.excel.xlsx](https://github.com/user-attachments/files/17280088/companies.excel.xlsx)
-
+### Download scraped dataset here [companies.excel.xlsx](https://github.com/user-attachments/files/17280088/companies.excel.xlsx)
 
 ### Data Preparation in Tableau
 Upon importing the dataset, I performed a few data preparation steps in Tableau:
