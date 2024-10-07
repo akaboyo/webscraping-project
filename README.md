@@ -1,4 +1,4 @@
-[companies.csv](https://github.com/user-attachments/files/17269140/companies.csv)# [TOP 100 COMPANIES IN THE US](#top-100-companies-in-the-us)
+# [TOP 100 COMPANIES IN THE US](#top-100-companies-in-the-us)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
