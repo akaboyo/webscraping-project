@@ -2,83 +2,66 @@
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Data Preprocessing Tools](#data-preprocessing-tools)
+- [Data Pre-processing Tools](#data-pre-processing-tools)
 - [Data Analysis](#data-analysis)
-- [Further Analysis Process](#further-analysis-process)
-    - [Connecting to the Dataset in Tableau](#connecting-to-the-dataset-in-tableau)
-    - [Data Preparation in Tableau](#data-preparation-in-tableau)
-    - [Visualizations and Dashboards Creation](#visualizations-and-dashboards-creation)
-    - [Insights and Interactivity](#insights-and-interactivity)
+- [Visual Insights](#visual-insights)
     - [Final Output and Sharing](#final-output-and-sharing)
+    - [Technologies Used](#technologies-used)
 
 ## Project Overview
 
-This project involves building a Python-based web scraper to collect data on the top 100 companies in the United States. The aim is to gather key information such as company names, industry sectors, and financial performance metrics and employee size, uncover key insights into industry distribution, geographic concentration, and growth patterns. The scraped data was exported to a csv file for further analysis, reporting, and integrated into financial dashboards with the objective of providing stakeholders with a deeper understanding of:
+This project builds a **Python web scraper** to collect and analyze data on the top 100 companies in the United States. The main goal is to extract structured business data from a public source, clean it, and then visualize it using **Tableau** to uncover industry and geographic patterns.
 
-- The distribution of revenue across industries and states.
-- Which industries and companies contribute the most to overall revenue and employee counts.
-- How revenue growth varies across companies and industries, particularly identifying which sectors are growing fastest and which companies dominate their respective sectors.
-- Identifying geographic trends in the location of company headquarters and state-level revenue distributions.
-- What are the relationships between company size (in terms of employees) and revenue in different industries?
+### What’s Included
 
-By answering these questions, this project aims to provide actionable insights to help businesses and analysts understand the economic landscape of the largest U.S. companies and identify opportunities for growth and investment.
+- Python scraper that extracts:
+  - Rank
+  - Company name
+  - Industry sector
+  - Revenue (USD millions)
+  - Revenue growth (%)
+  - Number of employees
+  - Headquarters location
 
-## Data Preprocessing Tools
-1. Web Scraping Libraries: In this project, i utilized these Python libraries:
-   - BeautifulSoup: For parsing HTML content and extracting data from the webpage.
-   - requests: For making HTTP requests to fetch the HTML content.
-   - pandas: For cleaning and organizing the data in a structured format (dataframe) and exporting it to CSV.
+- Visuals created in Tableau:
+  - Top 10 companies by revenue
+  - Industry revenue share (Treemap)
+  - Revenue vs Employee count (Scatterplot)
+  - Revenue growth distribution (Box plot)
+  - Geographic distribution of revenue (Map) 
+
+## Data Pre-processing Tools
+The scraper uses:
+
+- **requests** — to fetch HTML pages
+- **BeautifulSoup** — to parse and extract table data
+- **pandas** — to clean and transform the data into a structured format (CSV/XLSX)
+
+## Data Storage: 
+The cleaned output is stored in `companies.xlsx` for analysis and visualization.
   
-3. Data Collection: The scraper fetches data on:
-   - Rank 
-   - Company Name
-   - Industry Sector
-   - Revenue (USD millions)
-   - Revenue Growth
-   - No. of Employees
-   - Headquarters
-   
-4. Data Storage: The scraped data is cleaned and stored in a CSV structured format, for further analysis in Tableau.
+ ## Data Analysis
 
-## Data Analysis
+Once data is scraped and cleaned, it was imported into **Tableau**. Key steps included:
 
-Once collected, i analysed the data to find trends in industries, company performance, and created visual reports using Tableau.
-
-This project showcases my practical web scraping, data handling, and analysis skills that can be applied to financial market research or business intelligence applications.
- 
+1. Creating calculated fields for metrics like positive/negative revenue growth.
+2. Splitting geographic fields for map visualizations.
+3. Building interactive dashboards to explore:
+   - Sector contribution to total revenue
+   - Company performance by revenue and workforce size
+   - Growth trends and outliers
+   - State business concentration patterns
+     
 See below a snippet of the scraped data which was exported to a csv file for further analysis.
 ![Top 100 snippet](https://github.com/user-attachments/assets/165b6ed7-e540-4e8b-9641-7b7e08fc9e0c)
 
-### View the Web-Scraping Process [on kaggle](https://www.kaggle.com/code/adebayoadebanjo/my-webscraping-project)
+#### View the Web-Scraping Process [on kaggle](https://www.kaggle.com/code/adebayoadebanjo/my-webscraping-project)
 
 
-## Further Analysis Process
+#### Download scraped dataset here [companies.xlsx](https://github.com/user-attachments/files/17280201/companies.xlsx)
 
-After completing the initial data preparation and exporting the cleaned dataset from Python, the next phase involved utilizing Tableau for in-depth analysis and visualization. 
-
-### Connecting to the Dataset in Tableau
-After exporting the cleaned CSV from Python, I connected Tableau to the dataset for further visualization. The data contains important columns like:
-   - Rank
-   - Company Name
-   - Industry Sector
-   - Revenue (USD millions)
-   - Revenue Growth
-   - No. of Employees
-   - Headquarters
-
-### Download scraped dataset here [companies.xlsx](https://github.com/user-attachments/files/17280201/companies.xlsx)
-
-### Data Preparation in Tableau
-Upon importing the dataset, I performed a few data preparation steps in Tableau:
-
-- Created calculated fields for Positive Revenue growth and Negative Revenue growth with dynamic up and down arrows for distinguishing companies with positive and negative revenue growth rates and analyze operational efficiency across companies.
-- Created parameters for Top 10 and Bottom 10 companies by Revenue(USD millions).
-- Created sets for Top 10 and Bottom 10 companies by Revenue(USD millions).
-- Geographic Data Preparation: Since the dataset didn’t include a "Country" column for generating maps, I created a calculated field for Country and set United States as the default country for all rows which was used to create a hierarchy for geographical locations.
-- I splitted the Headquarters field into Area and State fields and changed the data type from strings to geographic roles for map visualization.
-  
-### Visualizations and Dashboards Creation
-I focused on creating interactive dashboards that would allow stakeholders to explore different dimensions of the dataset. Here are some key visualizations featured:
+### Visual Insights
+Below are some of the visuals that communicate the project findings:
 
 #### Industry and Company Performance Overview Dashboard
    - Bar Chart: Displaying total revenue of top 10 companies, highlighting the dominant sectors such as Retail, Petroleum, Financials and Healthcare.
@@ -104,18 +87,23 @@ I focused on creating interactive dashboards that would allow stakeholders to ex
 ![Industry growth dist](https://github.com/user-attachments/assets/30693715-8cc5-406f-a95c-c26883d8e192)
 
 
-## Insights and Interactivity
-The dashboard allows users to:
-- Use Action filters by industry, state, and company to explore granular detailed information.
-- Hover over points on scatter plots, Map, and bar charts to view specific values for revenue, growth, and employee count.
-
+These visuals help identify:
+- High revenue companies dominating specific sectors
+- Industry clusters with significant financial impact
+- Correlation patterns between workforce size and revenue
+- Geographic hubs of corporate activity
 
 ## Final Output and Sharing
 The interactive dashboards were published to Tableau Public for easy access and sharing with stakeholders. The insights from these visualizations provide a comprehensive understanding of the economic landscape of the top 100 U.S. companies by revenue, highlighting key sectors, geographic trends, and operational efficiencies.
 
 [Click here to view dashboards](https://public.tableau.com/views/Top100USCompanies/Story1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
+## Technologies Used
 
+- Python 3 (Requests, BeautifulSoup, pandas)
+- Tableau Desktop
+- CSV/XLSX for data exchange
+- Git & GitHub for version control
 
 
 
