@@ -96,7 +96,7 @@ These visuals help identify:
 ## Final Output and Sharing
 The interactive dashboards were published to Tableau Public for easy access and sharing with stakeholders. The insights from these visualizations provide a comprehensive understanding of the economic landscape of the top 100 U.S. companies by revenue, highlighting key sectors, geographic trends, and operational efficiencies.
 
-[Click here to view dashboards](https://public.tableau.com/views/Top100USCompanies/Story1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Click here to view dashboards](https://public.tableau.com/app/profile/adebayo.adebanjo/viz/Top100USCompanies/Story1)
 
 ## Technologies Used
 
